@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minha Lista de Tarefas</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Minhas Tarefas</h2>
+
+      <form id="task-form">
+        <input
+          type="text"
+          id="task-input"
+          placeholder="O que precisa ser feito?"
+          required
+        />
+        <button type="submit" id="adicionar-btn">Adicionar</button>
+        <button type="reset" id="reset-btn">Limpar</button>
+      </form>
+      <ul id="task-list"></ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
