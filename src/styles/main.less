@@ -1,0 +1,30 @@
+@corDeFundo1: #000000;
+@corDeFundo2: red;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: @corDeFundo1;
+  transition: background-color 0.3s ease;
+}
+
+body.bg-active {
+  background-color: @corDeFundo2;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  #button-click {
+    font-size: 200px;
+    cursor: pointer;
+    align-items: center;
+  }
+}
