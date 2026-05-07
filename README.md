@@ -18,7 +18,7 @@ Este projeto é uma página simples que consome a **API pública do GitHub** par
 ## 📂 Estrutura do projeto
 - `index.html` → Página principal com os elementos que serão preenchidos dinamicamente.
 - `main.css` → Arquivo de estilos para personalizar a aparência.
-- `ajax.js` → Script responsável por buscar os dados na API do GitHub e atualizar o conteúdo da página.
+- `main.js` → Script responsável por buscar os dados na API do GitHub e atualizar o conteúdo da página.
 
 ---
 
