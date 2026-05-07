@@ -38,7 +38,7 @@ Este projeto é uma página simples que consome a **API pública do GitHub** par
 ---
 
 ## 📷 Exemplo de uso
-No arquivo `ajax.js`, basta trocar o nome do usuário:
+No arquivo `main.js`, basta trocar o nome do usuário:
 ```javascript
 fetch("https://api.github.com/users/Willsmt")
 ```
