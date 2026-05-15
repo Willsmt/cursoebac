@@ -1,0 +1,25 @@
+// ========== função tipada
+function calculaArea(base: number, altura: number): number {
+  return base * altura;
+}
+
+const calculaArea2 = (base: number, altura: number): number => base * altura;
+
+// ============================= fução com array
+
+function somar(...numeros: number[]): void {
+  // numeros.reduce();
+  console.log(numeros);
+}
+
+// void =vazio
+
+function teste(): string | number {
+  if (10 > 5) {
+    return "dez maior que cinco";
+  } else {
+    return 5;
+  }
+}
+
+console.log(teste);
